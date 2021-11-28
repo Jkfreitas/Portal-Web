@@ -15,7 +15,7 @@ export class AppComponent {
     
     { label: 'Infográficos Interativos', icon: 'po-icon-chart-area', shortLabel: 'Interativos', 
       
-      subItems: [ { label: 'Mortes Violentas Intencionais e Crimes Violentos Letais Intencionais', action: this.goMVI.bind(this)}, 
+      subItems: [ { label: "Crimes Violentos Letais e Mortes Violentas Intencionais", action: this.goMVI.bind(this)}, 
                   { label: 'Homicídios Dolosos', action: this.goHomicidios.bind(this)},
                   { label: 'Lesão Corporal Seguida de Morte', action: this.goLCSM.bind(this)},
                   { label: 'Outras Categorias',action: this.goOutras.bind(this) }
