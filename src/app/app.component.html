@@ -1,0 +1,8 @@
+<div class="po-wrapper">
+  <ng-template [ngIf]="!router.isActive('/', true)"></ng-template> 
+  <po-menu [p-collapsed]=false [p-menus]="menus"></po-menu>
+  <router-outlet></router-outlet>
+</div>
+
+
+
